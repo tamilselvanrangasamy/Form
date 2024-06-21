@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+        }
+
+        div {
+            display: grid;
+            height: 100%;
+            place-content: center;
+            align-items: center;
+            h1
+            {
+                font-size: 5rem;
+                animation:head 4s alternate ease-in-out;
+                color: green;
+            }
+        }
+        @keyframes head {
+            0%{
+                letter-spacing: -10rem;
+                color: red;
+            }
+            50%
+            {
+                letter-spacing: 0rem;
+                color: orange;
+            }
+            100%
+            {
+                letter-spacing: 1rem;
+                color: green;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Registration Successful !!!</h1>
+    </div>
+</body>
+
+</html>
